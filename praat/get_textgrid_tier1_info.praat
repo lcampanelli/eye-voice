@@ -44,8 +44,7 @@ for ifile to numberOfFiles
      # check the number of intervals in the tier:
      numberOfIntervals = Get number of intervals: 1
 
-     # loop through all the intervals. 
-     # everything between "for" and "endfor" will be calculated for each interval     
+     # loop through all the intervals
      for interval from 1 to numberOfIntervals
           int_no = interval
           label$ = Get label of interval: 1, interval
@@ -62,4 +61,5 @@ for ifile to numberOfFiles
      Remove
      select Strings list
 endfor
+
 
