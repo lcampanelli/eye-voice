@@ -14,8 +14,9 @@
 # Output files from R CMD check
 /*.Rcheck/
 
-# RStudio files
+# RStudio files # added "github.Rproj"
 .Rproj.user/
+github.Rproj
 
 # produced vignettes
 vignettes/*.html
@@ -34,3 +35,4 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
