@@ -1,6 +1,7 @@
 ## Luca Campanelli & Alekya Menta ##
 ## June 5, 2018 ##
-# This script goes through TextGrid files in the specified directory, 
+# This script goes through all TextGrid files in the specified directory, 
+# it saves in a csv file various info about intervals in tier 1
 # creates TextGrid files in the subdirectory "textgrid" (which must be already created), 
 # calculates total duration of each sound file, 
 # calculates the duration of the first X interval(s) [interval 1 = onset], 
@@ -44,7 +45,7 @@ for ifile to numberOfFiles
      # check the number of intervals in the tier:
      numberOfIntervals = Get number of intervals: 1
 
-     # loop through all the intervals
+     # loop through all the intervals (tier 1)
      for interval from 1 to numberOfIntervals
           int_no = interval
           label$ = Get label of interval: 1, interval
